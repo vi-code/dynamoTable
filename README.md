@@ -9,4 +9,5 @@ Python 3.7 using Boto3 Library
 + Created a simple load script using Boto3 resource function.
 
 > TODO: add functionality for larger JSON/CSV files
+
 > TODO: create simple webapp to display table
