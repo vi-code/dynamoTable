@@ -1,0 +1,26 @@
+[
+	{
+		"Ticker" : "DIA",
+		"Stock Price" : 255
+	},
+
+	{
+		"Ticker" : "SPY",
+		"Stock Price" : 288.85
+	},
+
+	{
+		"Ticker" : "MSFT",
+		"Stock Price" : 136.36
+	},
+
+	{
+		"Ticker" : "NKE",
+		"Stock Price" : 80.28
+	},
+
+	{
+		"Ticker" : "AMD",
+		"Stock Price" : 31.18
+	}
+]

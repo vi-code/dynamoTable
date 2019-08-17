@@ -2,7 +2,7 @@ import boto3
 
 
 dynamodb = boto3.client('dynamodb', region_name = 'us-west-2')
-#	table = dynamodb.Table('stock_table')
+
 try:
 	table = dynamodb.create_table(
 		TableName = 'stock_table',
@@ -35,10 +35,3 @@ except dynamodb.exceptions.ResourceInUseException:
 	pass
 #	table = dynamodb.Table('stock_table')
 print("Status: ", boto3.resource('dynamodb', region_name = 'us-west-2').Table('stock_table').table_status)
-# table.put_item(
-# 	Item={
-# 		'Ticker': 'SPY',
-# 		'Cost': 288,
-# 		'Sentiment': 'Bearish'
-# 	}
-# )
