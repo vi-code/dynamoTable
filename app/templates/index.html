@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>{{ title }} - Stock App on AWS </title>
+	</head>
+	<body>
+		<h1>Welcome {{user.username}}! Choose your stock </h1>
+	</body>
+	<select>
+		{% for each in dropdown %}
+			<option value = "{{each}}">{{each}}</option>
+		{% endfor %}
+	</select>
+</html>
