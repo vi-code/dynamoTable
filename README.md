@@ -1,7 +1,7 @@
 # Documentation
 
 ## Language used
-Python 3.7 using Boto3 Library
+Python 3.7 using Boto3 Library and Flask
 
 ## Other
 + Created a table using Boto3 client function.
